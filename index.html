@@ -1,0 +1,2308 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/simplebar.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./img/favicon/safari-pinned-tab.svg"
+      color="#f20b28"
+    />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Siderius</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__inner">
+            <div class="header__logo">
+              <span> Siderius </span>
+            </div>
+            <div class="header__links">
+              <nav class="nav">
+                <button type="button" class="nav__close">
+                  <span></span>
+                </button>
+                <a href="#preview" class="nav__link">Курс</a>
+                <a href="#features" class="nav__link">Навыки</a>
+                <a href="#reviews" class="nav__link">Отзывы</a>
+                <a href="#courses" class="nav__link">Цены</a>
+                <a href="#blog" class="nav__link">Блог</a>
+              </nav>
+              <button type="button" class="header__button btn btnrecall">
+                <span>Обратный звонок</span>
+              </button>
+            </div>
+            <div class="header__burger">
+              <div class="header__burger-item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section id="preview" class="preview">
+        <div class="container">
+          <div class="preview__wrapper">
+            <div class="preview__inner">
+              <div class="preview__left shadow">
+                <img src="./img/preview/1.svg" alt="" />
+              </div>
+              <div class="preview__right">
+                <h1 class="preview__title">
+                  Научим вкусно готовить за 2 месяца!
+                </h1>
+                <h2 class="preview__subtitle">
+                  Кулинарные курсы, где вы научитесь готовить вкусно и быстро
+                </h2>
+                <button class="preview__btn btn">
+                  <span>Записаться</span>
+                </button>
+              </div>
+
+              <div class="preview__textright">
+                <span class="preview__textright-stroke"
+                  >Лучшие повора минска * Старт в сентябре</span
+                >
+                <span class="preview__textright-nostoke"
+                  >Лучшие повора минска * Старт в сентябре</span
+                >
+              </div>
+            </div>
+            <div class="preview__features">
+              <div class="preview__feature shadow">
+                <div class="preview__feature-top">
+                  <div class="preview__feature-icon">
+                    <img src="./img/preview/icon1.svg" alt="" />
+                  </div>
+                  <h3 class="preview__feature-title">Выгодные цены</h3>
+                </div>
+                <p class="preview__feature-text">
+                  предоставляем рассрочку на обучение без %
+                </p>
+              </div>
+              <div class="preview__feature shadowor">
+                <div class="preview__feature-top">
+                  <div class="preview__feature-icon">
+                    <img src="./img/preview/icon2.svg" alt="" />
+                  </div>
+                  <h3 class="preview__feature-title">Индивидуальный подход</h3>
+                </div>
+                <p class="preview__feature-text">
+                  На курс повара мы набираем небольшие группы по 4-5 человек.
+                  Индивидуальный подход в обучении вам гарантирован!
+                </p>
+              </div>
+              <div class="preview__feature shadow">
+                <div class="preview__feature-top">
+                  <div class="preview__feature-icon">
+                    <img src="./img/preview/icon3.svg" alt="" />
+                  </div>
+                  <h3 class="preview__feature-title">
+                    Удобный <br />
+                    график
+                  </h3>
+                </div>
+                <p class="preview__feature-text">
+                  Вы можете выбрать удобную группу: утреннюю, вечернюю или
+                  группу выходного дня.
+                </p>
+              </div>
+              <div class="preview__feature shadowor">
+                <div class="preview__feature-top">
+                  <div class="preview__feature-icon">
+                    <img src="./img/preview/icon4.svg" alt="" />
+                  </div>
+                  <h3 class="preview__feature-title">
+                    Квалифицированные <br />
+                    преподаватели
+                  </h3>
+                </div>
+                <p class="preview__feature-text">
+                  С вами будут работать лучшие шефы Минска
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features" class="features">
+        <div class="container">
+          <div class="features__wrapper">
+            <div class="features__left">
+              <img src="./img/features/1.svg" alt="" />
+            </div>
+            <div class="features__right">
+              <h2 class="features__title">
+                За два месяца вы научитесь готовить
+              </h2>
+              <div class="features__inner">
+                <div class="features__slider swiper">
+                  <div class="features__tabs swiper-wrapper">
+                    <button
+                      data-href="#featuresCnt-1"
+                      class="features__tab shadow swiper-slide"
+                    >
+                      Способы обработки
+                    </button>
+                    <button
+                      data-href="#featuresCnt-2"
+                      class="features__tab shadow swiper-slide"
+                    >
+                      Основные блюда
+                    </button>
+                    <button
+                      data-href="#featuresCnt-3"
+                      class="features__tab shadow swiper-slide"
+                    >
+                      Блюда азиатской кухни
+                    </button>
+                    <button
+                      data-href="#featuresCnt-4"
+                      class="features__tab shadow swiper-slide"
+                    >
+                      Блюда русской кухни
+                    </button>
+                    <button
+                      data-href="#featuresCnt-5"
+                      class="features__tab shadow swiper-slide"
+                    >
+                      Блюда итальянской кухни
+                    </button>
+                  </div>
+                  <div class="features__slider-navigation">
+                    <button class="features__btn-prev"></button>
+                    <button class="features__btn-next"></button>
+                  </div>
+                </div>
+                <div class="features__content">
+                  <div
+                    id="featuresCnt-1"
+                    class="features__tabs-content"
+                    data-simplebar
+                  >
+                    <p>#1 Основные способы:</p>
+                    <p>
+                      — варка (основным способом, при повышенной t;
+                      при пониженной t; припускание; варка на пару;
+                    </p>
+                    <p>
+                      — жарка (основным способом, в жарочном шкафу, во фритюре,
+                      без жира, на открытом огне);
+                    </p>
+                    <p>Комбинированные способы:</p>
+                    <p>— тушение;</p>
+                    <p>— запекание;</p>
+                    <p>— варка с последующей обжаркой;</p>
+                    <p>— брезирование;</p>
+                    <p>Вспомогательные способы:</p>
+                    <p>— пассерование;</p>
+                    <p>— бланширование;</p>
+                    <p>— опаливание;</p>
+                    <p>— термостатирование;</p>
+                    <p>Основные способы:</p>
+                    <p>
+                      — варка (основным способом, при повышенной t;
+                      при пониженной t; припускание; варка на пару;
+                    </p>
+                    <p>
+                      — жарка (основным способом, в жарочном шкафу, во фритюре,
+                      без жира, на открытом огне);
+                    </p>
+                    <p>Комбинированные способы:</p>
+                    <p>— тушение;</p>
+                    <p>— запекание;</p>
+                    <p>— варка с последующей обжаркой;</p>
+                    <p>— брезирование;</p>
+                    <p>Вспомогательные способы:</p>
+                    <p>— пассерование;</p>
+                    <p>— бланширование;</p>
+                    <p>— опаливание;</p>
+                    <p>— термостатирование;</p>
+                  </div>
+                  <div
+                    id="featuresCnt-2"
+                    class="features__tabs-content"
+                    data-simplebar
+                  >
+                    <p>#2 Основные способы:</p>
+                    <p>
+                      — варка (основным способом, при повышенной t;
+                      при пониженной t; припускание; варка на пару;
+                    </p>
+                    <p>
+                      — жарка (основным способом, в жарочном шкафу, во фритюре,
+                      без жира, на открытом огне);
+                    </p>
+                    <p>Комбинированные способы:</p>
+                    <p>— тушение;</p>
+                    <p>— запекание;</p>
+                    <p>— варка с последующей обжаркой;</p>
+                    <p>— брезирование;</p>
+                    <p>Вспомогательные способы:</p>
+                    <p>— пассерование;</p>
+                    <p>— бланширование;</p>
+                    <p>— опаливание;</p>
+                    <p>— термостатирование;</p>
+                    <p>Основные способы:</p>
+                    <p>
+                      — варка (основным способом, при повышенной t;
+                      при пониженной t; припускание; варка на пару;
+                    </p>
+                    <p>
+                      — жарка (основным способом, в жарочном шкафу, во фритюре,
+                      без жира, на открытом огне);
+                    </p>
+                    <p>Комбинированные способы:</p>
+                    <p>— тушение;</p>
+                    <p>— запекание;</p>
+                    <p>— варка с последующей обжаркой;</p>
+                    <p>— брезирование;</p>
+                    <p>Вспомогательные способы:</p>
+                    <p>— пассерование;</p>
+                    <p>— бланширование;</p>
+                    <p>— опаливание;</p>
+                    <p>— термостатирование;</p>
+                  </div>
+                  <div
+                    id="featuresCnt-3"
+                    class="features__tabs-content"
+                    data-simplebar
+                  >
+                    <p>#3 Основные способы:</p>
+                    <p>
+                      — варка (основным способом, при повышенной t;
+                      при пониженной t; припускание; варка на пару;
+                    </p>
+                    <p>
+                      — жарка (основным способом, в жарочном шкафу, во фритюре,
+                      без жира, на открытом огне);
+                    </p>
+                    <p>Комбинированные способы:</p>
+                    <p>— тушение;</p>
+                    <p>— запекание;</p>
+                    <p>— варка с последующей обжаркой;</p>
+                    <p>— брезирование;</p>
+                    <p>Вспомогательные способы:</p>
+                    <p>— пассерование;</p>
+                    <p>— бланширование;</p>
+                    <p>— опаливание;</p>
+                    <p>— термостатирование;</p>
+                    <p>Основные способы:</p>
+                    <p>
+                      — варка (основным способом, при повышенной t;
+                      при пониженной t; припускание; варка на пару;
+                    </p>
+                    <p>
+                      — жарка (основным способом, в жарочном шкафу, во фритюре,
+                      без жира, на открытом огне);
+                    </p>
+                    <p>Комбинированные способы:</p>
+                    <p>— тушение;</p>
+                    <p>— запекание;</p>
+                    <p>— варка с последующей обжаркой;</p>
+                    <p>— брезирование;</p>
+                    <p>Вспомогательные способы:</p>
+                    <p>— пассерование;</p>
+                    <p>— бланширование;</p>
+                    <p>— опаливание;</p>
+                    <p>— термостатирование;</p>
+                  </div>
+                  <div
+                    id="featuresCnt-4"
+                    class="features__tabs-content"
+                    data-simplebar
+                  >
+                    <p>#4 Основные способы:</p>
+                    <p>
+                      — варка (основным способом, при повышенной t;
+                      при пониженной t; припускание; варка на пару;
+                    </p>
+                    <p>
+                      — жарка (основным способом, в жарочном шкафу, во фритюре,
+                      без жира, на открытом огне);
+                    </p>
+                    <p>Комбинированные способы:</p>
+                    <p>— тушение;</p>
+                    <p>— запекание;</p>
+                    <p>— варка с последующей обжаркой;</p>
+                    <p>— брезирование;</p>
+                    <p>Вспомогательные способы:</p>
+                    <p>— пассерование;</p>
+                    <p>— бланширование;</p>
+                    <p>— опаливание;</p>
+                    <p>— термостатирование;</p>
+                    <p>Основные способы:</p>
+                    <p>
+                      — варка (основным способом, при повышенной t;
+                      при пониженной t; припускание; варка на пару;
+                    </p>
+                    <p>
+                      — жарка (основным способом, в жарочном шкафу, во фритюре,
+                      без жира, на открытом огне);
+                    </p>
+                    <p>Комбинированные способы:</p>
+                    <p>— тушение;</p>
+                    <p>— запекание;</p>
+                    <p>— варка с последующей обжаркой;</p>
+                    <p>— брезирование;</p>
+                    <p>Вспомогательные способы:</p>
+                    <p>— пассерование;</p>
+                    <p>— бланширование;</p>
+                    <p>— опаливание;</p>
+                    <p>— термостатирование;</p>
+                  </div>
+                  <div
+                    id="featuresCnt-5"
+                    class="features__tabs-content"
+                    data-simplebar
+                  >
+                    <p>#5 Основные способы:</p>
+                    <p>
+                      — варка (основным способом, при повышенной t;
+                      при пониженной t; припускание; варка на пару;
+                    </p>
+                    <p>
+                      — жарка (основным способом, в жарочном шкафу, во фритюре,
+                      без жира, на открытом огне);
+                    </p>
+                    <p>Комбинированные способы:</p>
+                    <p>— тушение;</p>
+                    <p>— запекание;</p>
+                    <p>— варка с последующей обжаркой;</p>
+                    <p>— брезирование;</p>
+                    <p>Вспомогательные способы:</p>
+                    <p>— пассерование;</p>
+                    <p>— бланширование;</p>
+                    <p>— опаливание;</p>
+                    <p>— термостатирование;</p>
+                    <p>Основные способы:</p>
+                    <p>
+                      — варка (основным способом, при повышенной t;
+                      при пониженной t; припускание; варка на пару;
+                    </p>
+                    <p>
+                      — жарка (основным способом, в жарочном шкафу, во фритюре,
+                      без жира, на открытом огне);
+                    </p>
+                    <p>Комбинированные способы:</p>
+                    <p>— тушение;</p>
+                    <p>— запекание;</p>
+                    <p>— варка с последующей обжаркой;</p>
+                    <p>— брезирование;</p>
+                    <p>Вспомогательные способы:</p>
+                    <p>— пассерование;</p>
+                    <p>— бланширование;</p>
+                    <p>— опаливание;</p>
+                    <p>— термостатирование;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="reviews" class="reviews">
+        <div class="container">
+          <div class="reviews__wrapper">
+            <div class="reviews__left">
+              <h2 class="reviews__title">Отзывы наших учеников</h2>
+            </div>
+            <div class="reviews__right">
+              <div class="reviews__slider swiper">
+                <div class="reviews__slider-wrapper swiper-wrapper">
+                  <div class="reviews__inner swiper-slide">
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Екатерина, 21.05.2022 </span>
+                      <div class="reviews__text">
+                        <h3 class="reviews__text-title">спасибо за знания!</h3>
+                        <p class="reviews__text-desc">
+                          Спасибо преподавателям! Я научилась вкусно готовить!
+                          Муж и дети счастливы) Спасибо за ваши знания
+                          и поддержку!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Лев, 13.05.2022 </span>
+                      <div class="reviews__text reviewor">
+                        <h3 class="reviews__text-title">
+                          готовлю теперь с удовольствием
+                        </h3>
+                        <p class="reviews__text-desc">
+                          Я люблю готовить, благодаря курсам делаю это чаще
+                          и с ещё большим энтузиазмом! Теперь соревнуемся
+                          с женой на кухне) Программа курса очень хорошая,
+                          спасибо вам ребят)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Алиса, 15.04.2022 </span>
+                      <div class="reviews__text reviewor">
+                        <h3 class="reviews__text-title">я довольна курсами</h3>
+                        <p class="reviews__text-desc">
+                          Программа курса очень понравилась, много вопросов
+                          для себя я закрыла, научилась готовить десерты, чему
+                          очень рада) Пруподаватели очень классные, поддерживали
+                          и помогали на протяжении всего курса, спасибо вам)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Валерий, 02.05.2022 </span>
+                      <div class="reviews__text">
+                        <h3 class="reviews__text-title">я умею готовить!</h3>
+                        <p class="reviews__text-desc">
+                          Давно приглянулись мне эти курсы, но все откладывал.
+                          И вот наконец я прошёл курс, я научился готовить!
+                          Спасибо за поддержку, моментами не получались соусы,
+                          но преподаватели не давали опустить руки, спасибо
+                          за вашу работу)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reviews__inner swiper-slide">
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Екатерина, 21.05.2022 </span>
+                      <div class="reviews__text">
+                        <h3 class="reviews__text-title">спасибо за знания!</h3>
+                        <p class="reviews__text-desc">
+                          Спасибо преподавателям! Я научилась вкусно готовить!
+                          Муж и дети счастливы) Спасибо за ваши знания
+                          и поддержку!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Лев, 13.05.2022 </span>
+                      <div class="reviews__text reviewor">
+                        <h3 class="reviews__text-title">
+                          готовлю теперь с удовольствием
+                        </h3>
+                        <p class="reviews__text-desc">
+                          Я люблю готовить, благодаря курсам делаю это чаще
+                          и с ещё большим энтузиазмом! Теперь соревнуемся
+                          с женой на кухне) Программа курса очень хорошая,
+                          спасибо вам ребят)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Алиса, 15.04.2022 </span>
+                      <div class="reviews__text reviewor">
+                        <h3 class="reviews__text-title">я довольна курсами</h3>
+                        <p class="reviews__text-desc">
+                          Программа курса очень понравилась, много вопросов
+                          для себя я закрыла, научилась готовить десерты, чему
+                          очень рада) Пруподаватели очень классные, поддерживали
+                          и помогали на протяжении всего курса, спасибо вам)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Валерий, 02.05.2022 </span>
+                      <div class="reviews__text">
+                        <h3 class="reviews__text-title">я умею готовить!</h3>
+                        <p class="reviews__text-desc">
+                          Давно приглянулись мне эти курсы, но все откладывал.
+                          И вот наконец я прошёл курс, я научился готовить!
+                          Спасибо за поддержку, моментами не получались соусы,
+                          но преподаватели не давали опустить руки, спасибо
+                          за вашу работу)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reviews__inner swiper-slide">
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Екатерина, 21.05.2022 </span>
+                      <div class="reviews__text">
+                        <h3 class="reviews__text-title">спасибо за знания!</h3>
+                        <p class="reviews__text-desc">
+                          Спасибо преподавателям! Я научилась вкусно готовить!
+                          Муж и дети счастливы) Спасибо за ваши знания
+                          и поддержку!
+                        </p>
+                      </div>
+                    </div>
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Лев, 13.05.2022 </span>
+                      <div class="reviews__text reviewor">
+                        <h3 class="reviews__text-title">
+                          готовлю теперь с удовольствием
+                        </h3>
+                        <p class="reviews__text-desc">
+                          Я люблю готовить, благодаря курсам делаю это чаще
+                          и с ещё большим энтузиазмом! Теперь соревнуемся
+                          с женой на кухне) Программа курса очень хорошая,
+                          спасибо вам ребят)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Алиса, 15.04.2022 </span>
+                      <div class="reviews__text reviewor">
+                        <h3 class="reviews__text-title">я довольна курсами</h3>
+                        <p class="reviews__text-desc">
+                          Программа курса очень понравилась, много вопросов
+                          для себя я закрыла, научилась готовить десерты, чему
+                          очень рада) Пруподаватели очень классные, поддерживали
+                          и помогали на протяжении всего курса, спасибо вам)
+                        </p>
+                      </div>
+                    </div>
+                    <div class="reviews__item shadow">
+                      <span class="reviews__info"> Валерий, 02.05.2022 </span>
+                      <div class="reviews__text">
+                        <h3 class="reviews__text-title">я умею готовить!</h3>
+                        <p class="reviews__text-desc">
+                          Давно приглянулись мне эти курсы, но все откладывал.
+                          И вот наконец я прошёл курс, я научился готовить!
+                          Спасибо за поддержку, моментами не получались соусы,
+                          но преподаватели не давали опустить руки, спасибо
+                          за вашу работу)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="reviews__slider-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="courses" class="courses">
+        <div class="container">
+          <h2 class="courses__title">
+            Выберите курс, который подходит именно вам!
+          </h2>
+          <div class="courses__wrapper">
+            <div class="courses__item shadow">
+              <div class="courses__top">
+                <div class="courses__img">
+                  <img src="./img/courses/1.svg" alt="" />
+                </div>
+                <h3 class="courses__item-title">Учимся онлайн</h3>
+              </div>
+              <div class="courses__features">
+                <span class="courses__feature"
+                  >доступ к программе курса на 3 месяца</span
+                >
+                <span class="courses__feature"
+                  >поддержка преподавателей онлайн на протяжении 2 месяцев
+                  обучения</span
+                >
+                <span class="courses__feature"
+                  >обучение в удобное для вас время</span
+                >
+              </div>
+
+              <span class="courses__price">800 byn</span>
+              <button type="button" class="courses__btn btn btnbuycourse shadow">
+                <span class="courseone">Купить курс</span>
+              </button>
+            </div>
+            <div class="courses__item shadow reditem">
+              <div class="courses__top">
+                <div class="courses__img">
+                  <img src="./img/courses/2.svg" alt="" />
+                </div>
+                <h3 class="courses__item-title">всё включено</h3>
+              </div>
+              <div class="courses__features">
+                <span class="courses__feature"
+                  >продукты и посуду предоставляем мы</span
+                >
+                <span class="courses__feature"
+                  >занятия 2 дня в неделю (выбираем день через
+                  голосование)</span
+                >
+                <span class="courses__feature"
+                  >поддержка преподавателей весь период обучения</span
+                >
+                <span class="courses__feature"
+                  >добавляем в чат поддержки после обучения</span
+                >
+              </div>
+
+              <span class="courses__price">1500 byn</span>
+              <button type="button" class="courses__btn btn shadow btnrecall">
+                <span class="coursesecond">Записаться на курс</span>
+              </button>
+            </div>
+            <div class="courses__item shadow">
+              <div class="courses__top">
+                <div class="courses__img">
+                  <img src="./img/courses/3.svg" alt="" />
+                </div>
+                <h3 class="courses__item-title">Режим лайт</h3>
+              </div>
+              <div class="courses__features">
+                <span class="courses__feature"
+                  >предоставляем посуду, продукты покупаете к занятию сами</span
+                >
+                <span class="courses__feature"
+                  >занятия 2 дня в неделю (выбираем день через
+                  голосование)</span
+                >
+                <span class="courses__feature"
+                  >поддержка преподавателей весь период обучения</span
+                >
+              </div>
+
+              <span class="courses__price">1000 byn</span>
+              <button type="button" class="courses__btn btn shadow btnrecall">
+                <span class="coursethird">Записаться на курс</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blog" class="blog">
+        <div class="container">
+          <h2 class="blog__title">блог о вкусном</h2>
+          <div class="blog__slider blog__desktop swiper">
+            <div class="blog__slider-wrapper swiper-wrapper">
+              <div class="blog__slide swiper-slide">
+                <div class="blog__wrapper">
+                  <div class="blog__inner">
+                    <button
+                      type="button"
+                      data-href="#blogCnt-1"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">секреты лазаньи</h3>
+                      <p class="blog__item-desc">
+                        Кто любит Итальянскую Кухню? Всеми любимая лазанья может
+                        быть еще вкусн...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-2"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Лучшие белые блинчики</h3>
+                      <p class="blog__item-desc">
+                        Мало кто откажется от вкусных блинчиков. Особенно,
+                        если они приготовлены с любовью! Блинное тесто готовят
+                        на молоке, воде, кефире, с добавлением дрожжей.
+                      </p>
+                      <span class="blog__item-date">20.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-3"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">соус для пасты с мясом</h3>
+                      <p class="blog__item-desc">
+                        Для приготовления соуса всегда необходимо подбирать
+                        самые свежие ингредиенты...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-4"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">лучшие приборы</h3>
+                      <p class="blog__item-desc">
+                        Где вы покупаете приборы для кухни? Знаете ли вы о
+                        безопасности материалов?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-5"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">выбираем чай к десерту</h3>
+                      <p class="blog__item-desc">
+                        Черный, красный, белый... Лучшая чайная подборка для
+                        наслаждения!...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-6"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Индейка или свинина</h3>
+                      <p class="blog__item-desc">
+                        Какую птицу вы готовите чаще всего? Для каких
+                        мероприятий выбрать индейку?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                  </div>
+                  <div class="blog__contents">
+                    <div id="blogCnt-1" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Секреты лазаньи. Кто любит Итальянскую Кухню? Всеми
+                        любимая лазанья может быть еще вкуснее. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры. Самые вкусные и нежные блинчики готовятся
+                        на молоке, а пышность им придают кисломолочные продукты,
+                        поэтому мы советуем брать молоко и, например, кефир,
+                        простоквашу или жидкую сметану в соотношении 3 к 1.
+                        Идеальное соотношение муки и жидкости 1 к 1. Используйте
+                        свежие яйца, перед добавлением в тесто обязательно
+                        их взбейте в отдельной мисочке. Лучше всего желтки
+                        взбить с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-2" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Самые вкусные и нежные блинчики готовятся на молоке,
+                        а пышность им придают кисломолочные продукты, поэтому
+                        мы советуем брать молоко и, например, кефир, простоквашу
+                        или жидкую сметану в соотношении 3 к 1. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-3" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Соус для пасты с мясом. Для приготовления соуса всегда
+                        необходимо подбирать самые свежие ингредиенты. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-4" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Лучшие приборы. Где вы покупаете приборы для кухни?
+                        Знаете ли вы о безопасности материалов? Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-5" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Выбираем чай к десерту. Черный, красный, белый... Лучшая
+                        чайная подборка для наслаждения!... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Лучше всего желтки взбить
+                        с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-6" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Индейка или свинина. Какую птицу вы готовите чаще всего?
+                        Для каких мероприятий выбрать индейку?... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog__slide swiper-slide">
+                <div class="blog__wrapper">
+                  <div class="blog__inner">
+                    <button
+                      type="button"
+                      data-href="#blogCnt-7"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">секреты лазаньи</h3>
+                      <p class="blog__item-desc">
+                        Кто любит Итальянскую Кухню? Всеми любимая лазанья может
+                        быть еще вкусн...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-8"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Лучшие белые блинчики</h3>
+                      <p class="blog__item-desc">
+                        Мало кто откажется от вкусных блинчиков. Особенно,
+                        если они приготовлены с любовью! Блинное тесто готовят
+                        на молоке, воде, кефире, с добавлением дрожжей.
+                      </p>
+                      <span class="blog__item-date">20.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-9"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">соус для пасты с мясом</h3>
+                      <p class="blog__item-desc">
+                        Для приготовления соуса всегда необходимо подбирать
+                        самые свежие ингредиенты...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-10"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">лучшие приборы</h3>
+                      <p class="blog__item-desc">
+                        Где вы покупаете приборы для кухни? Знаете ли вы о
+                        безопасности материалов?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-11"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">выбираем чай к десерту</h3>
+                      <p class="blog__item-desc">
+                        Черный, красный, белый... Лучшая чайная подборка для
+                        наслаждения!...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-12"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Индейка или свинина</h3>
+                      <p class="blog__item-desc">
+                        Какую птицу вы готовите чаще всего? Для каких
+                        мероприятий выбрать индейку?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                  </div>
+                  <div class="blog__contents">
+                    <div id="blogCnt-7" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Секреты лазаньи. Кто любит Итальянскую Кухню? Всеми
+                        любимая лазанья может быть еще вкуснее. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры. Самые вкусные и нежные блинчики готовятся
+                        на молоке, а пышность им придают кисломолочные продукты,
+                        поэтому мы советуем брать молоко и, например, кефир,
+                        простоквашу или жидкую сметану в соотношении 3 к 1.
+                        Идеальное соотношение муки и жидкости 1 к 1. Используйте
+                        свежие яйца, перед добавлением в тесто обязательно
+                        их взбейте в отдельной мисочке. Лучше всего желтки
+                        взбить с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-8" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Самые вкусные и нежные блинчики готовятся на молоке,
+                        а пышность им придают кисломолочные продукты, поэтому
+                        мы советуем брать молоко и, например, кефир, простоквашу
+                        или жидкую сметану в соотношении 3 к 1. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-9" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Соус для пасты с мясом. Для приготовления соуса всегда
+                        необходимо подбирать самые свежие ингредиенты. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-10" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Лучшие приборы. Где вы покупаете приборы для кухни?
+                        Знаете ли вы о безопасности материалов? Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-11" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Выбираем чай к десерту. Черный, красный, белый... Лучшая
+                        чайная подборка для наслаждения!... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Лучше всего желтки взбить
+                        с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-12" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Индейка или свинина. Какую птицу вы готовите чаще всего?
+                        Для каких мероприятий выбрать индейку?... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog__slide swiper-slide">
+                <div class="blog__wrapper">
+                  <div class="blog__inner">
+                    <button
+                      type="button"
+                      data-href="#blogCnt-13"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">секреты лазаньи</h3>
+                      <p class="blog__item-desc">
+                        Кто любит Итальянскую Кухню? Всеми любимая лазанья может
+                        быть еще вкусн...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-14"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Лучшие белые блинчики</h3>
+                      <p class="blog__item-desc">
+                        Мало кто откажется от вкусных блинчиков. Особенно,
+                        если они приготовлены с любовью! Блинное тесто готовят
+                        на молоке, воде, кефире, с добавлением дрожжей.
+                      </p>
+                      <span class="blog__item-date">20.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-15"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">соус для пасты с мясом</h3>
+                      <p class="blog__item-desc">
+                        Для приготовления соуса всегда необходимо подбирать
+                        самые свежие ингредиенты...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-16"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">лучшие приборы</h3>
+                      <p class="blog__item-desc">
+                        Где вы покупаете приборы для кухни? Знаете ли вы о
+                        безопасности материалов?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-17"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">выбираем чай к десерту</h3>
+                      <p class="blog__item-desc">
+                        Черный, красный, белый... Лучшая чайная подборка для
+                        наслаждения!...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-18"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Индейка или свинина</h3>
+                      <p class="blog__item-desc">
+                        Какую птицу вы готовите чаще всего? Для каких
+                        мероприятий выбрать индейку?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                  </div>
+                  <div class="blog__contents">
+                    <div id="blogCnt-13" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Секреты лазаньи. Кто любит Итальянскую Кухню? Всеми
+                        любимая лазанья может быть еще вкуснее. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры. Самые вкусные и нежные блинчики готовятся
+                        на молоке, а пышность им придают кисломолочные продукты,
+                        поэтому мы советуем брать молоко и, например, кефир,
+                        простоквашу или жидкую сметану в соотношении 3 к 1.
+                        Идеальное соотношение муки и жидкости 1 к 1. Используйте
+                        свежие яйца, перед добавлением в тесто обязательно
+                        их взбейте в отдельной мисочке. Лучше всего желтки
+                        взбить с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-14" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Самые вкусные и нежные блинчики готовятся на молоке,
+                        а пышность им придают кисломолочные продукты, поэтому
+                        мы советуем брать молоко и, например, кефир, простоквашу
+                        или жидкую сметану в соотношении 3 к 1. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-15" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Соус для пасты с мясом. Для приготовления соуса всегда
+                        необходимо подбирать самые свежие ингредиенты. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-16" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Лучшие приборы. Где вы покупаете приборы для кухни?
+                        Знаете ли вы о безопасности материалов? Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-17" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Выбираем чай к десерту. Черный, красный, белый... Лучшая
+                        чайная подборка для наслаждения!... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Лучше всего желтки взбить
+                        с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <div id="blogCnt-18" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Индейка или свинина. Какую птицу вы готовите чаще всего?
+                        Для каких мероприятий выбрать индейку?... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog__slider-pagination"></div>
+          </div>
+          <div class="blog__slider blog__mobile swiper">
+            <div class="blog__slider-wrapper swiper-wrapper">
+              <div class="blog__slide swiper-slide">
+                <div class="blog__wrapper">
+                  <div class="blog__inner">
+                    <button
+                      type="button"
+                      data-href="#blogCnt-1"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">секреты лазаньи</h3>
+                      <p class="blog__item-desc">
+                        Кто любит Итальянскую Кухню? Всеми любимая лазанья может
+                        быть еще вкусн...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-1" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Секреты лазаньи. Кто любит Итальянскую Кухню? Всеми
+                        любимая лазанья может быть еще вкуснее. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры. Самые вкусные и нежные блинчики готовятся
+                        на молоке, а пышность им придают кисломолочные продукты,
+                        поэтому мы советуем брать молоко и, например, кефир,
+                        простоквашу или жидкую сметану в соотношении 3 к 1.
+                        Идеальное соотношение муки и жидкости 1 к 1. Используйте
+                        свежие яйца, перед добавлением в тесто обязательно
+                        их взбейте в отдельной мисочке. Лучше всего желтки
+                        взбить с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-2"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Лучшие белые блинчики</h3>
+                      <p class="blog__item-desc">
+                        Мало кто откажется от вкусных блинчиков. Особенно,
+                        если они приготовлены с любовью! Блинное тесто готовят
+                        на молоке, воде, кефире, с добавлением дрожжей.
+                      </p>
+                      <span class="blog__item-date">20.04.2022</span>
+                    </button>
+                    <div id="blogCnt-2" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Самые вкусные и нежные блинчики готовятся на молоке,
+                        а пышность им придают кисломолочные продукты, поэтому
+                        мы советуем брать молоко и, например, кефир, простоквашу
+                        или жидкую сметану в соотношении 3 к 1. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-3"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">соус для пасты с мясом</h3>
+                      <p class="blog__item-desc">
+                        Для приготовления соуса всегда необходимо подбирать
+                        самые свежие ингредиенты...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-3" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Соус для пасты с мясом. Для приготовления соуса всегда
+                        необходимо подбирать самые свежие ингредиенты. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-4"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">лучшие приборы</h3>
+                      <p class="blog__item-desc">
+                        Где вы покупаете приборы для кухни? Знаете ли вы о
+                        безопасности материалов?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-4" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Лучшие приборы. Где вы покупаете приборы для кухни?
+                        Знаете ли вы о безопасности материалов? Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-5"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">выбираем чай к десерту</h3>
+                      <p class="blog__item-desc">
+                        Черный, красный, белый... Лучшая чайная подборка для
+                        наслаждения!...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-5" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Выбираем чай к десерту. Черный, красный, белый... Лучшая
+                        чайная подборка для наслаждения!... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Лучше всего желтки взбить
+                        с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-6"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Индейка или свинина</h3>
+                      <p class="blog__item-desc">
+                        Какую птицу вы готовите чаще всего? Для каких
+                        мероприятий выбрать индейку?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-6" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Индейка или свинина. Какую птицу вы готовите чаще всего?
+                        Для каких мероприятий выбрать индейку?... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog__slide swiper-slide">
+                <div class="blog__wrapper">
+                  <div class="blog__inner">
+                    <button
+                      type="button"
+                      data-href="#blogCnt-7"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">секреты лазаньи</h3>
+                      <p class="blog__item-desc">
+                        Кто любит Итальянскую Кухню? Всеми любимая лазанья может
+                        быть еще вкусн...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-7" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Секреты лазаньи. Кто любит Итальянскую Кухню? Всеми
+                        любимая лазанья может быть еще вкуснее. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры. Самые вкусные и нежные блинчики готовятся
+                        на молоке, а пышность им придают кисломолочные продукты,
+                        поэтому мы советуем брать молоко и, например, кефир,
+                        простоквашу или жидкую сметану в соотношении 3 к 1.
+                        Идеальное соотношение муки и жидкости 1 к 1. Используйте
+                        свежие яйца, перед добавлением в тесто обязательно
+                        их взбейте в отдельной мисочке. Лучше всего желтки
+                        взбить с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-8"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Лучшие белые блинчики</h3>
+                      <p class="blog__item-desc">
+                        Мало кто откажется от вкусных блинчиков. Особенно,
+                        если они приготовлены с любовью! Блинное тесто готовят
+                        на молоке, воде, кефире, с добавлением дрожжей.
+                      </p>
+                      <span class="blog__item-date">20.04.2022</span>
+                    </button>
+                    <div id="blogCnt-8" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Самые вкусные и нежные блинчики готовятся на молоке,
+                        а пышность им придают кисломолочные продукты, поэтому
+                        мы советуем брать молоко и, например, кефир, простоквашу
+                        или жидкую сметану в соотношении 3 к 1. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-9"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">соус для пасты с мясом</h3>
+                      <p class="blog__item-desc">
+                        Для приготовления соуса всегда необходимо подбирать
+                        самые свежие ингредиенты...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-9" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Соус для пасты с мясом. Для приготовления соуса всегда
+                        необходимо подбирать самые свежие ингредиенты. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-10"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">лучшие приборы</h3>
+                      <p class="blog__item-desc">
+                        Где вы покупаете приборы для кухни? Знаете ли вы о
+                        безопасности материалов?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-10" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Лучшие приборы. Где вы покупаете приборы для кухни?
+                        Знаете ли вы о безопасности материалов? Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-11"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">выбираем чай к десерту</h3>
+                      <p class="blog__item-desc">
+                        Черный, красный, белый... Лучшая чайная подборка для
+                        наслаждения!...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-11" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Выбираем чай к десерту. Черный, красный, белый... Лучшая
+                        чайная подборка для наслаждения!... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Лучше всего желтки взбить
+                        с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-12"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Индейка или свинина</h3>
+                      <p class="blog__item-desc">
+                        Какую птицу вы готовите чаще всего? Для каких
+                        мероприятий выбрать индейку?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-12" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Индейка или свинина. Какую птицу вы готовите чаще всего?
+                        Для каких мероприятий выбрать индейку?... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="blog__slide swiper-slide">
+                <div class="blog__wrapper">
+                  <div class="blog__inner">
+                    <button
+                      type="button"
+                      data-href="#blogCnt-13"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">секреты лазаньи</h3>
+                      <p class="blog__item-desc">
+                        Кто любит Итальянскую Кухню? Всеми любимая лазанья может
+                        быть еще вкусн...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-13" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Секреты лазаньи. Кто любит Итальянскую Кухню? Всеми
+                        любимая лазанья может быть еще вкуснее. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры. Самые вкусные и нежные блинчики готовятся
+                        на молоке, а пышность им придают кисломолочные продукты,
+                        поэтому мы советуем брать молоко и, например, кефир,
+                        простоквашу или жидкую сметану в соотношении 3 к 1.
+                        Идеальное соотношение муки и жидкости 1 к 1. Используйте
+                        свежие яйца, перед добавлением в тесто обязательно
+                        их взбейте в отдельной мисочке. Лучше всего желтки
+                        взбить с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-14"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Лучшие белые блинчики</h3>
+                      <p class="blog__item-desc">
+                        Мало кто откажется от вкусных блинчиков. Особенно,
+                        если они приготовлены с любовью! Блинное тесто готовят
+                        на молоке, воде, кефире, с добавлением дрожжей.
+                      </p>
+                      <span class="blog__item-date">20.04.2022</span>
+                    </button>
+                    <div id="blogCnt-14" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Самые вкусные и нежные блинчики готовятся на молоке,
+                        а пышность им придают кисломолочные продукты, поэтому
+                        мы советуем брать молоко и, например, кефир, простоквашу
+                        или жидкую сметану в соотношении 3 к 1. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-15"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">соус для пасты с мясом</h3>
+                      <p class="blog__item-desc">
+                        Для приготовления соуса всегда необходимо подбирать
+                        самые свежие ингредиенты...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-15" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Соус для пасты с мясом. Для приготовления соуса всегда
+                        необходимо подбирать самые свежие ингредиенты. Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-16"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">лучшие приборы</h3>
+                      <p class="blog__item-desc">
+                        Где вы покупаете приборы для кухни? Знаете ли вы о
+                        безопасности материалов?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-16" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Лучшие приборы. Где вы покупаете приборы для кухни?
+                        Знаете ли вы о безопасности материалов? Идеальное
+                        соотношение муки и жидкости 1 к 1. Используйте свежие
+                        яйца, перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-17"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">выбираем чай к десерту</h3>
+                      <p class="blog__item-desc">
+                        Черный, красный, белый... Лучшая чайная подборка для
+                        наслаждения!...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-17" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Выбираем чай к десерту. Черный, красный, белый... Лучшая
+                        чайная подборка для наслаждения!... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Лучше всего желтки взбить
+                        с сахаром в пышную пену и сразу добавить в тесто,
+                        а белки взбить до твёрдых пиков и добавлять в самом
+                        конце, так блинчики получатся пышными и вкусными. Важно,
+                        чтобы яйца были комнатной температуры.
+                      </div>
+                    </div>
+                    <button
+                      type="button"
+                      data-href="#blogCnt-18"
+                      class="blog__item shadow"
+                    >
+                      <h3 class="blog__item-title">Индейка или свинина</h3>
+                      <p class="blog__item-desc">
+                        Какую птицу вы готовите чаще всего? Для каких
+                        мероприятий выбрать индейку?...
+                      </p>
+                      <span class="blog__item-date">01.04.2022</span>
+                    </button>
+                    <div id="blogCnt-18" class="blog__content shadow">
+                      <div class="blog__content-img">
+                        <img src="./img/blog/1.jpg" alt="" />
+                      </div>
+                      <div class="blog__content-info" data-simplebar>
+                        Индейка или свинина. Какую птицу вы готовите чаще всего?
+                        Для каких мероприятий выбрать индейку?... Самые вкусные
+                        и нежные блинчики готовятся на молоке, а пышность
+                        им придают кисломолочные продукты, поэтому мы советуем
+                        брать молоко и, например, кефир, простоквашу или жидкую
+                        сметану в соотношении 3 к 1. Идеальное соотношение муки
+                        и жидкости 1 к 1. Используйте свежие яйца,
+                        перед добавлением в тесто обязательно их взбейте
+                        в отдельной мисочке. Лучше всего желтки взбить с сахаром
+                        в пышную пену и сразу добавить в тесто, а белки взбить
+                        до твёрдых пиков и добавлять в самом конце, так блинчики
+                        получатся пышными и вкусными. Важно, чтобы яйца были
+                        комнатной температуры. Самые вкусные и нежные блинчики
+                        готовятся на молоке, а пышность им придают кисломолочные
+                        продукты, поэтому мы советуем брать молоко и, например,
+                        кефир, простоквашу или жидкую сметану в соотношении 3
+                        к 1. Идеальное соотношение муки и жидкости 1 к 1.
+                        Используйте свежие яйца, перед добавлением в тесто
+                        обязательно их взбейте в отдельной мисочке. Лучше всего
+                        желтки взбить с сахаром в пышную пену и сразу добавить
+                        в тесто, а белки взбить до твёрдых пиков и добавлять
+                        в самом конце, так блинчики получатся пышными
+                        и вкусными. Важно, чтобы яйца были комнатной
+                        температуры.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="blog__slider-pagination"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <foooter class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__top shadow">
+            <a href="" class="footer__biglink"> scooking@gmail.com </a>
+            <div class="footer__logo">
+              <div class="header__logo">
+                <span> Siderius </span>
+              </div>
+            </div>
+            <a href="" class="footer__biglink">8017 90-80-38</a>
+          </div>
+          <div class="footer__left shadow">
+            <a href="#preview" class="footer__link nav__link">Курс</a>
+            <a href="#features" class="footer__link nav__link">Навыки</a>
+            <a href="#reviews" class="footer__link nav__link">Отзывы</a>
+            <a href="#courses" class="footer__link nav__link">Цены</a>
+            <a href="#blog" class="footer__link nav__link">Блог</a>
+          </div>
+          <div class="footer__right shadow">
+            <span class="footer__text">Давайте созвонимся?</span>
+            <div class="footer__btn btn btnrecall">
+              <span>Обратный звонок</span>
+            </div>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__social">
+              <a href="" class="footer__social-btn btn">
+                <span><img src="./img/icons/instagram.svg" alt="" /></span>
+              </a>
+              <a href="" class="footer__social-btn btn">
+                <span><img src="./img/icons/vk.svg" alt="" /></span>
+              </a>
+              <a href="" class="footer__social-btn btn">
+                <span><img src="./img/icons/telegram.svg" alt="" /></span>
+              </a>
+            </div>
+            <span class="footer__copyright">©siderius Все права защищены</span>
+          </div>
+        </div>
+      </div>
+    </foooter>
+
+    <div class="modal">
+      <div class="modal__register submodal">
+        <div class="modal__wrapper">
+          <div class="modal__inner">
+            <h3 class="modal__title">Запись на курс</h3>
+            <input class="modal__input shadow" placeholder="Имя" type="text" />
+            <input
+              class="modal__input shadow"
+              placeholder="Фамилия"
+              type="text"
+            />
+            <input
+              class="modal__input shadow"
+              placeholder="Номер"
+              type="text"
+            />
+            <button type="button" class="modal__btn btn">
+              <span> Отправить </span>
+            </button>
+          </div>
+          <button type="button" class="modal__close"></button>
+        </div>
+      </div>
+      <div class="modal__recall submodal">
+        <div class="modal__wrapper">
+          <div class="modal__inner">
+            <h3 class="modal__title">
+              Оставьте свои данные и администратор вам перезвонит
+            </h3>
+            <input class="modal__input shadow" placeholder="Имя" type="text" />
+            <input
+              class="modal__input shadow"
+              placeholder="Фамилия"
+              type="text"
+            />
+            <input
+              class="modal__input shadow"
+              placeholder="Номер"
+              type="text"
+            />
+            <button type="button" class="modal__btn btn">
+              <span> Отправить </span>
+            </button>
+          </div>
+          <button type="button" class="modal__close"></button>
+        </div>
+      </div>
+      <div class="modal__buy submodal">
+        <div class="modal__wrapper">
+          <div class="modal__inner">
+            <h3 class="modal__title">
+              Оставьте свои данные и администратор вам перезвонитт
+            </h3>
+            <input class="modal__input shadow" placeholder="Имя" type="text" />
+            <input
+              class="modal__input shadow"
+              placeholder="Фамилия"
+              type="text"
+            />
+
+            <div class="modal__typesbuy">
+              <button type="button" class="modal__typesbuy-btn shadow">
+                Выберите способ оплаты
+              </button>
+              <ul class="modal__typesbuy-list shadow">
+                <li class="modal__typesbuy-type">
+                  <img src="./img/typesbuy/googlePay.svg" alt="" />
+                </li>
+                <li class="modal__typesbuy-type">
+                  <img src="./img/typesbuy/visa.svg" alt="" />
+                </li>
+                <li class="modal__typesbuy-type">
+                  <img src="./img/typesbuy/mastercard.svg" alt="" />
+                </li>
+                <li class="modal__typesbuy-type">
+                  <img src="./img/typesbuy/mir.svg" alt="" />
+                </li>
+                <li class="modal__typesbuy-type">
+                  <img src="./img/typesbuy/yandex.svg" alt="" />
+                </li>
+                <li class="modal__typesbuy-type">
+                  <img src="./img/typesbuy/webmoney.svg" alt="" />
+                </li>
+                <li class="modal__typesbuy-type">
+                  <img src="./img/typesbuy/qiwi.svg" alt="" />
+                </li>
+              </ul>
+            </div>
+            <button type="button" class="modal__btn btn">
+              <span> Отправить </span>
+            </button>
+          </div>
+          <button type="button" class="modal__close"></button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/smoothLinks.js"></script>
+  <script src="./js/burger.js"></script>
+  <script src="./js/navLinks.js"></script>
+  <script src="./js/scrollAnimAndGrad.js"></script>
+  <script src="./js/featuresTabs.js"></script>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/swiperInit.js"></script>
+  <script src="./js/simplebar.js"></script>
+  <script src="./js/blogItems.js"></script>
+  <script src="./js/modals.js"></script>
+</html>
