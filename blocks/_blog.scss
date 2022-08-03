@@ -27,7 +27,6 @@
       }
    }
 
-   
    &__slider-pagination {
       display: flex;
       justify-content: flex-end;
@@ -109,7 +108,9 @@
          .blog__item-date {
             color: #65271d;
          }
-         margin-bottom: 10px;
+         @media (max-width: 1200px) {
+            margin-bottom: 10px;
+         }
       }
    }
 
@@ -184,6 +185,7 @@
          overflow: visible;
          opacity: 1;
          max-height: 3000px;
+         z-index: 2;
          @media (max-width: 1200px) {
             margin-bottom: 25px;
          }
